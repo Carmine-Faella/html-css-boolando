@@ -181,8 +181,12 @@ ul a:hover{
 }
 
 .box_1 img:hover{
-    display: none;
+    position: relative;
+    z-index: -1;
 }
+
+
+
 
 
 
