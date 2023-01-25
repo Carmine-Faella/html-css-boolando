@@ -10,7 +10,10 @@ body{
 
 header{
     height: 100px;
-    background-color: rgb(224,105,24) ;
+    background-color: rgb(224,105,24);
+    position: fixed;
+    width: 100%;
+    z-index: 2;
 }
 
 .top_bar{
@@ -31,14 +34,104 @@ ul,a{
     text-decoration: none;
 }
 
-a{
-    padding: 10px;
-    color: white;
-    font-size: 14px;
+li{
+    display: inline-block;
+}
+
+.flex_cnt{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+    padding-top: 150px;
+    z-index: 1;
+}
+
+.box_1{
+    width: calc(100% / 3 - 20px);
+    position: relative;
+    margin: 0px 10px 130px 0px;
+}
+
+.box_1 img{
+    width: 100%;
 }
 
 
-li{
-    display: inline-block;
+.box_1 .under_image{
+    display: none;
+}
+
+
+.heart{
+    padding: 10px;
+    background-color: white;
+    position: absolute;
+    top: 10px;
+    right:0;
+}
+
+.heart i{
+    color: black;
+}
+
+.tag{
+    background-color: red;
+    top: 90%;
+    left:0;   
+}
+
+.eco{
+    background-color: green;
+    top: 90%;
+    left:15%;
+}
+
+#eco_end{
+    top: 90%;
+    left:0;
+}
+
+.text{
+    position: absolute;
+    top: 100%;
+    left:0
+}
+
+h2{
+    font-size: 18px ;
+}
+
+.marca{
+    color: rgb(131,126,115);
+    font-size: 12px;
+}
+
+.discount{
+    color: red;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.price{
+    color:black;
+    font-weight: lighter;
+}
+
+.text_white{
+    color: white;
+    font-size: 12px;
+    position: absolute;
+    padding: 5px 10px;
+}
+
+.heart i:hover{
+    color: red;
+}
+
+header a, footer a{
+    padding: 10px;
+    color: white;
+    font-size: 14px;
 }
 
