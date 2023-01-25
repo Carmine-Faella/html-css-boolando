@@ -129,9 +129,18 @@ h2{
     color: red;
 }
 
-header a, footer a{
-    padding: 10px;
+header a, footer a, h3, footer div{
+    padding: 10px 10px 0px 0px;
     color: white;
-    font-size: 14px;
+    font-size: 12px;
+}
+
+footer{
+    background-color: black;
+}
+ 
+
+ul a:hover{
+    text-decoration: underline;
 }
 
