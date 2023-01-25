@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Noto Sans', sans-serif;
+}
+
+header{
+    height: 100px;
+    background-color: rgb(224,105,24) ;
+}
+
+.top_bar{
+    display: flex;
+    max-width: 80%;
+    margin: auto;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tb_col img{
+    height: 30px;
+    padding-right: 20px;
+}
+
+ul,a{
+    text-decoration: none;
+}
+
+a{
+    padding: 10px;
+    color: white;
+    font-size: 14px;
+}
+
+
+li{
+    display: inline-block;
+}
+
