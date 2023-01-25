@@ -53,16 +53,6 @@ li{
     margin: 0px 10px 130px 0px;
 }
 
-.box_1 img{
-    width: 100%;
-}
-
-
-.box_1 .under_image{
-    display: none;
-}
-
-
 .heart{
     padding: 10px;
     background-color: white;
@@ -143,4 +133,57 @@ footer{
 ul a:hover{
     text-decoration: underline;
 }
+
+.foot_bar{
+    display: flex;
+    max-width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.box_1 img{
+    width: 100%;
+    height: 100%;
+}
+
+.under_image{
+    display: none;
+}
+
+.box_1{
+    background-size: cover;
+}
+
+#img1{
+    background-image: url(../img/1b.webp);
+}
+
+#img2{
+    background-image: url(../img/2b.webp);
+}
+
+#img3{
+    background-image: url(../img/3b.webp);
+}
+
+#img4{
+    background-image: url(../img/4b.webp);
+}
+
+#img5{
+    background-image: url(../img/5b.webp);
+}
+
+#img6{
+    background-image: url(../img/6b.webp);
+}
+
+.box_1 img:hover{
+    display: none;
+}
+
+
+
 
